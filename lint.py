@@ -36,7 +36,7 @@ for f in file:
 
         if 'instance_type' not in obj:
             errors.append("Instance type is not defned")
-                    
+        
         if 'tenancy' not in obj:
             errors.append("Tenancy is not defined")
 fp.close()
